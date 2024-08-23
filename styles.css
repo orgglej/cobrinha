@@ -8,11 +8,11 @@ canvas {
 }
 
 .controls {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 button {
-    margin: 5px;
-    padding: 10px;
-    font-size: 16px;
+    margin: 10px;
+    padding: 20px;
+    font-size: 32px;
 }
