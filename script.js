@@ -74,6 +74,23 @@ function directionControl(event) {
     if (event.keyCode === 40 && direction !== 'UP') direction = 'DOWN';
 }
 
+// Funções para os botões
+document.getElementById('up').addEventListener('click', () => {
+    if (direction !== 'DOWN') direction = 'UP';
+});
+
+document.getElementById('down').addEventListener('click', () => {
+    if (direction !== 'UP') direction = 'DOWN';
+});
+
+document.getElementById('left').addEventListener('click', () => {
+    if (direction !== 'RIGHT') direction = 'LEFT';
+});
+
+document.getElementById('right').addEventListener('click', () => {
+    if (direction !== 'LEFT') direction = 'RIGHT';
+});
+
 // Reiniciar o jogo
 document.getElementById('restart').addEventListener('click', restartGame);
 function restartGame() {
